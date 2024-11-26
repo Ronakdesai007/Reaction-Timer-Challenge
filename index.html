@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reaction Timer Challenge</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+</head>
+<body>
+  <div class="game">
+    <h1>Reaction Timer Challenge!</h1>
+    <p>Score: <span id="score">0</span></p>
+    <p class="miss-message" id="missMessage">💥 Missed!</p>
+    <div class="grid">
+      <div class="cell" id="cell1"></div>
+      <div class="cell" id="cell2"></div>
+      <div class="cell" id="cell3"></div>
+      <div class="cell" id="cell4"></div>
+      <div class="cell" id="cell5"></div>
+      <div class="cell" id="cell6"></div>
+      <div class="cell" id="cell7"></div>
+      <div class="cell" id="cell8"></div>
+      <div class="cell" id="cell9"></div>
+    </div>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+  <script src="script.js" defer></script> <!-- Link to JavaScript file -->
+</body>
+</html>
